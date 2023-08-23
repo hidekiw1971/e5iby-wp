@@ -1,0 +1,36 @@
+@use "global" as *;
+
+.profile {
+    @include mq(md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin: 0 auto;
+        // 
+    }
+}
+
+.profile figure {
+    display: block;
+    padding-top: 55%;
+    position: relative;
+    overflow: hidden;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.profile img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
