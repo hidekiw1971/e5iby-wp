@@ -1,0 +1,7 @@
+@use "global" as *;
+
+.header {
+    display: block;
+    background: rgba(65, 105, 225, 1);
+    padding: rem(10);
+}

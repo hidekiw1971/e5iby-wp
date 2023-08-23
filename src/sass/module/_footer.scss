@@ -1,0 +1,7 @@
+@use "global" as *;
+
+.footer {
+    display: block;
+    padding: rem(10);
+    background: rgba(255, 127, 80, 1);
+}

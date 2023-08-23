@@ -1,0 +1,34 @@
+@use "global" as *;
+
+.card {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.card figure {
+    display: block;
+    padding-top: 63%;
+    overflow: hidden;
+    position: relative;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.card img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.1);
+
+    @include mq(md) {
+        // 
+    }
+}
