@@ -1,0 +1,38 @@
+@use "global" as *;
+
+.privacy-policy {
+    @include mq(md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin: 0 auto;
+        // 
+    }
+}
+
+.privacy-policy figure {
+    display: block;
+    padding-top: 55%;
+    position: relative;
+    overflow: hidden;
+    order: 2;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.privacy-policy img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.privacy-policy .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 1;
+}

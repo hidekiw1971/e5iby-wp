@@ -2,7 +2,7 @@
 
 .container {
     display: block;
-    background: rgba(102, 205, 170, 1);
+    // background: rgba(102, 205, 170, 1);
 
     @include mq(md) {
         display: flex;

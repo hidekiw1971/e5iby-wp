@@ -1,0 +1,38 @@
+@use "global" as *;
+
+.infomation {
+    @include mq(md) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin: 0 auto;
+        // 
+    }
+}
+
+.infomation figure {
+    display: block;
+    padding-top: 55%;
+    position: relative;
+    overflow: hidden;
+    order: 1;
+
+    @include mq(md) {
+        // 
+    }
+}
+
+.infomation img {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infomation .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 2;
+}
