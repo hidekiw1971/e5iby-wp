@@ -15,6 +15,7 @@
     padding-top: 55%;
     position: relative;
     overflow: hidden;
+    order: 1;
 
     @include mq(md) {
         // 
@@ -33,4 +34,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: rem(10);
+    order: 2;
 }
