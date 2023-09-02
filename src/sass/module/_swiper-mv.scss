@@ -1,0 +1,21 @@
+@use "global" as *;
+
+.swiper {
+    display: block;
+    width: 100%;
+}
+
+.swiper-mv .swiper-mv-slide1 {
+    display: block;
+    background: rgba(238, 130, 238, 1);
+}
+
+.swiper-mv .swiper-mv-slide2 {
+    display: block;
+    background: rgba(152, 251, 152, 1);
+}
+
+.swiper-mv .swiper-mv-slide3 {
+    display: block;
+    background: rgba(0, 191, 255, 1);
+}

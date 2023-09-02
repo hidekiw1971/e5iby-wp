@@ -231,6 +231,7 @@ select::-ms-expand {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+    background: rgb(255, 255, 255);
   }
 }
 
@@ -283,6 +284,7 @@ select::-ms-expand {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+    background: rgb(255, 255, 255);
   }
 }
 
@@ -322,6 +324,13 @@ select::-ms-expand {
           order: 2;
 }
 
+.kensho {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: rgb(255, 255, 0);
+}
+
 .main {
   -webkit-box-flex: 3;
       -ms-flex: 3;
@@ -338,6 +347,7 @@ select::-ms-expand {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+    background: rgb(255, 255, 255);
   }
 }
 
@@ -383,6 +393,7 @@ select::-ms-expand {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+    background: rgb(255, 255, 255);
   }
 }
 
@@ -428,6 +439,7 @@ select::-ms-expand {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+    background: rgb(255, 255, 255);
   }
 }
 
@@ -473,6 +485,7 @@ select::-ms-expand {
     grid-template-columns: repeat(2, 1fr);
     width: 80%;
     margin: 0 auto;
+    background: rgb(255, 255, 255);
   }
 }
 
@@ -549,5 +562,25 @@ button.search-form-button {
   padding: 10px;
   padding: 0.625rem;
   background: rgb(255, 215, 0);
+}
+
+.swiper {
+  display: block;
+  width: 100%;
+}
+
+.swiper-mv .swiper-mv-slide1 {
+  display: block;
+  background: rgb(238, 130, 238);
+}
+
+.swiper-mv .swiper-mv-slide2 {
+  display: block;
+  background: rgb(152, 251, 152);
+}
+
+.swiper-mv .swiper-mv-slide3 {
+  display: block;
+  background: rgb(0, 191, 255);
 }
 /*# sourceMappingURL=styles.css.map */
